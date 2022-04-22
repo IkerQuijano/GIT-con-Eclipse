@@ -8,6 +8,13 @@ public class Alumno {
 	private String nombre;
 	private String apellido;
 	
+
+//Metodos
+	
+	public String toString() {
+		return this.nombre + " " + this.apellido + " " + this.dni;
+	}
+	
 	
 //Constructor
 
